@@ -1,0 +1,81 @@
+.mantine-DatePickerInput-monthCell {
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    text-align: center;
+    border: 1px solid #007bff;
+    border-radius: 0.3rem;
+    margin: 5px;
+    background-color: #f0f8ff;
+    font-size: smaller;
+}
+
+.mantine-DatePickerInput-weekday {
+    display: inline-block;
+    width: 1.3rem;
+    height: 1.3rem;
+    line-height: 1.3rem;
+    text-align: center;
+    margin: 5px;
+    font-size: smaller;
+}
+
+.mantine-DatePickerInput-calendarHeader {
+    display: flex;
+    width: 13rem;
+    height: 2.5rem;
+    align-items: center;
+}
+
+.mantine-DatePickerInput-calendarHeaderControl {
+    width: 2.3rem;
+    height: 2.3rem;
+    position: relative;
+}
+
+.mantine-DatePickerInput-calendarHeaderControlIcon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mantine-DatePickerInput-calendarHeaderLevel {
+    width: 8.4rem;
+    height: 3rem;
+    font-size: medium;
+    text-align: center;
+}
+
+.mantine-DatePickerInput-monthsListCell {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    border: 1px solid #007bff;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    background-color: #f0f8ff;
+    font-size: smaller;
+}
+
+.mantine-DatePickerInput-monthsList,
+.mantine-DatePickerInput-yearsList {
+    display: flex;
+    justify-content: center;
+}
+
+.mantine-DatePickerInput-yearsListCell {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    border: 1px solid #007bff;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    background-color: #f0f8ff;
+    font-size: smaller;
+}
