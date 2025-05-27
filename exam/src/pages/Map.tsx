@@ -24,7 +24,6 @@ export const Map = () => {
       setEvents(allEvents);
     }
   }, [allEvents, setEvents]);
-  console.log('Filtered events:', allEvents);
   return (
     <YMaps query={{ apikey: apiKey, load: 'package.full' }}>
       {isLoading && <div>Загрузка карты...</div>}

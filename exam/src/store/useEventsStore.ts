@@ -12,7 +12,6 @@ export const useEventStore = create<EventState>((set) => ({
         }
         return event;
       });
-      console.log('Updating events:', newEvents);
       return { events: newEvents };
     })
 }));
